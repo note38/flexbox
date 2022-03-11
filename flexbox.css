@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-color: darkgray;
+  text-align: center;
+  padding: 1rem 3rem;
+}
+.bodyContent {
+  display: flex;
+  justify-content: space-between;
+}
+.footer {
+  background-color: pink;
+  text-align: center;
+  padding: 1rem 3rem;
+}
+.leftpane {
+  background-color: gold;
+  text-align: center;
+  padding: 12rem 4rem;
+}
+.bodyContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.pre-body {
+  background-color: blueviolet;
+  text-align: center;
+}
+.center {
+  background-color: aqua;
+  text-align: center;
+  padding-block: 10rem;
+}
+.post-body {
+  background-color: brown;
+  text-align: center;
+}
+.rightpane {
+  background-color: blue;
+  text-align: center;
+  padding: 12rem 4rem;
+}
+.pre-body,
+.post-body {
+  padding-block: 3rem;
+}
